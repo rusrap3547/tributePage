@@ -1,6 +1,55 @@
+body {
+	background-color: black;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	border: 5px solid;
+}
+h2 {
+	color: white;
+	text-align: center;
+	border-bottom: 2px;
+}
+#biography {
+	color: white;
+	text-align: center;
+	height: 120px;
+	width: 350px;
+	padding-left: 35%;
+	padding-right: 35%;
+	border: 2px solid white;
+}
+
+#hisBestQuote {
+	border: 2px solid white;
+	background-color: #4e005e;
+	color: white;
+	text-align: center;
+	padding-left: 30%;
+	padding-right: 30%;
+}
+#portrait {
+	text-align: center;
+	padding-left: 40%;
+	padding-right: 40%;
+	border-radius: 50%;
+}
+
 .timelineYear {
-	background-color: aqua;
+	background-color: black;
+	color: white;
+	border: 1px solid black;
+	text-align: center;
+	text-decoration: double;
 }
 #masterList {
 	border: 2px solid black;
+	background-color: black;
+}
+.gamesList {
+	list-style-type: none;
+	background-color: #4e005e;
+	text-align: left;
 }
